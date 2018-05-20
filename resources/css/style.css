@@ -1,0 +1,155 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* header */
+
+header{
+  display: flex;
+  align-items: center;
+  height:69px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo{
+  display: flex;
+  flex-grow: 1;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+nav a{
+  color: seashell;
+}
+
+/* Mission */
+
+.firstcontent{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.mission{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.missiontext{
+  background-color: black;
+  width: 1200px;
+}
+
+/* Featired tea */
+
+.secondcontent{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.secondtitle{
+  width: 1000px;
+}
+
+.thirdcontent{
+  display: flex;
+  justify-content: center;
+}
+
+.featured{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featuredpic img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 0;
+}
+
+.featuredpic h4{
+  margin-top: 10px;
+}
+
+.featuredpic.center{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.featuredpic.nextrow{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* locations */
+
+.forthcontent{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.locationbackground{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 580px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.locationtitle{
+  padding-top: 30px;
+}
+
+.locationlist{
+  display: flex;
+  justify-content: center;
+}
+
+.locationdetail{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* footer */
+
+.contact{
+  height: 200px;
+}
+
+footer{
+  text-align: left;
+  padding-left: 20px;
+}
